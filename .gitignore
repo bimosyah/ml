@@ -2,7 +2,7 @@
 *.pyc
 
 # Ignore folder for virtual environments
-venv/
+env/
 
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
