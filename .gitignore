@@ -9,3 +9,6 @@ env/
 
 # Ignore the data folder
 data/
+
+# ignore .idea folder
+.idea/
