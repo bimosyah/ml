@@ -25,5 +25,7 @@ plt.show()
 # 3D Plot
 pca = PCA(n_components=3)
 reduced_data = pca.fit_transform(scaled_data)
-fig = px.scatter_3d(x=reduced_data[:, 0], y=reduced_data[:, 1], z=reduced_data[:, 2], color=iris['species'], labels={'x': 'First Principal Component', 'y': 'Second Principal Component', 'z': 'Third Principal Component'})
+fig = px.scatter_3d(x=reduced_data[:, 0], y=reduced_data[:, 1], z=reduced_data[:, 2], color=iris['species'],
+                    labels={'x': 'First Principal Component', 'y': 'Second Principal Component',
+                            'z': 'Third Principal Component'})
 fig.show()
