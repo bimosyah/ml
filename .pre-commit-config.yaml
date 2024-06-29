@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: update-requirements
+        name: Update requirements.txt
+        entry: pre-commit.sh
+        language: script
+        always_run: true
+        pass_filenames: false
